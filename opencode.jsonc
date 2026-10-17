@@ -1,0 +1,14 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "mcp": {
+    "build-tools": {
+      "type": "local",
+      "command": ["python3", "/absolute/path/to/build-mcp/build_mcp.py"],
+      "enabled": true,
+      "environment": {
+        "BUILD_CMD": "python3 /absolute/path/to/build-mcp/fake_junkbuild.py",
+        "BUILD_TIMEOUT_S": "300"
+      }
+    }
+  }
+}
